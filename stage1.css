@@ -1,0 +1,36 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Considering changing color, if it's not visually appealing to viewers. */
+body {
+    background-color: #8CB56B
+}
+
+.title {
+    text-align:center;
+    font-family:fantasy;
+    background-color: #627E4B;
+    color:white;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.sub-title {
+    text-align:left;
+    font-family: century gothic;
+    color:black;
+    
+}
+
+.content {
+    background-color: #627E4B;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro to Programming</title>
+        <link type="text/css" rel="stylesheet" href="stage1.css">
+    </head>
+    <body>
+        <!-- Stage 1: Work Session 1-->
+        <div><h1 class="title">Lesson 1: The Basics of the Web and HTML</h1></div>
+        
+        <br>
+        
+        <div class="content">
+        <h2 class="sub-title">The Web As We Know It</h2>
+            <p>The way we view the web was due to <a href="http://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> developing the World Wide Web (aka The Web) in 1989 and HTML (Hyper Text Markup Language) in 1990.</p>
+            <p>The web contains billions of HTML documents. <b>HTML is the skeleton of every web page</b>, and web pages can be connected with <a href="http://en.wikipedia.org/wiki/Hyperlink"> hyperlinks</a> (aka links).</p>
+            <p>There are four major pieces in order to request and retrieve a website, which are a <a href="http://en.wikipedia.org/wiki/Web_browser">Browser</a>, the <a href="http://en.wikipedia.org/wiki/Internet">Internet</a>, <a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a>, and <a href="http://en.wikipedia.org/wiki/Server_%28computing%29">Servers</a>. The browser you use makes a request to the internet asking for website you entered in your browser, the internet communicates that request using HTTP to the server that is hosting the HTML file of the website you requested. The server then executes that request by communicating to the internet using HTTP, and the internet displays the website on your browser. Please see the following image for visual understanding: <img src="http://www.tonymarston.net/uniface/WebBrowser-WebServer.gif" alt="WebBrowser-WebServer"></p>
+        </div>
+            
+        <br>
+        
+        <div class="content">
+        <h2 class="sub-title">Understanding HTML</h2>
+            <p>As stated previously HTML is the skeleton of every web page, and in essence it is the <em>foundation of the web</em>.</p>
+            <p>HTML has a number of tags that be can be used to alter the look of text content or reference other documents such as: images or videos.</p>
+            <p>Some of the common tags are 'p' for paragraph, 'b' for <b>bold</b>, and 'em' for <em>emphasis</em>. All of those tags require an opening and closing tag utilizing angle brackets, it is important to remember to use the slash '/' in the closing tag.</p> 
+            <p>Another useful tag is the 'a' for anchor, the anchor tag allows a programmer to place links to other web pages. The anchor tag requires a programmer to use an attribute that's referred to href. An additonal tag that requires an attribute is the image 'img' tag, it requires the src attribute. The image tag allows a programmer to add images to a webpage. A programmer should remember when using this tag to also include the alt attribute to enter text of the image, it will be helpful to users if the link is broken. A programmer should recognize that the 'img' tag doesn't require a closing tag, and neither does the breaking 'br' tag. Both of those tags are void tags, since they don't have any content.</p>
+            <p>Every HTML element is either inline or block. The diffence between the two is that a block has an invisible box surrounding the contexts and a inline doesn't.</p>
+        </div>
+        
+        <br>
+        
+        <div class="content">
+        <h2 class="sub-title">Key Pieces of Advice When Programming</h2>
+            <p>It is important to understand that computers will execute exactly what a programmer codes, they will not assume what a programmer may have meant to code.</p>
+            <p>Don't attempt to remember all of the elements, being forgetful is forgivable just know what resources to use to find help such as <a href="https://www.google.com/?gws_rd=ssl">Google</a> or <a href="http://stackoverflow.com/">Stack Overflow</a></p>
+            <p>Finally, in order to become a better programmer, it is necessary to constantly practice.  </p>
+        </div>
+        <br>
+        <br>
+        <!-- Stage 1: Work Session 2-->
+        <div><h1 class="title">Lession 2: Creating a Structured Document with HTML</h1></div>
+        
+        <br>
+        
+        <div class="content">
+        <h2 class="sub-title">An Analogy of a Web Page</h2>    
+            <p>HTML is the foundation and structure of a home.</p>
+            <p>CSS is the style of a home. Such as the color of walls or whether it has brick or siding.</p>
+            <p>DOM (document object model) is the blueprint of a home, it allows someone to view the structure of a web page (doesn't provide the actual code). This can be viewed by using the Developer Tools in a browser, there are two panels an: Element Panel and Styles Panel. In the Elements Panel sideway triangles may appear representing an element. If you click on the triangles, they will reveal further elements, that relate to the previous element, this will provide the appearance of a tree-like structure. The DOM is built by the browser that's being used. The Styles Panel provides information about specific details of an element such as: pixel size, color, font type, border height and width, etc.</p>
+        </div>
+        
+        <br>
+        
+        <div class="content">
+        <h2 class="sub-title">I See Boxes</h2>
+            <p>Web pages are structured by a series of boxes, the div tag is best to create these boxes. This can be seen using the Developer Tools in a browser. When creating a div tag give it a place holder in order to remember which box it refers to. It's important to give each div tag a class attribute in order to give specific style flexibility for each box when using CSS.</p>
+            <p>Having boxes as the layout of web pages makes it easier for developers to rearrange a page and give users a new viewing experience.</p>
+            <p>It is important to get in the habit that when given a new project to begin drawing boxes of the layout of any web page, this is known as boxify the design. It not important to include the content until later. An example of a boxified design with place holders can be seen in the following image.</p>
+                <img src= "http://www.w3.org/TR/css3-flexbox/images/flex-order-page.svg" alt="Boxify Design">
+        </div>    
+            
+        <br>
+        
+        <div class="content">
+        <h2 class="sub-title">An Experts Advice</h2>
+            <p>Jacques, Front-End Developer at Udacity suggests <em>as a novice programmer when starting a new project to get out a pencil and boxify the layout of the web page and to not worry about including the contents until later</em>.</p>
+                <img src="http://klucid.com/sites/default/files/imagecache/portfolio_large/img_0790.jpg" alt="Social Network Profile Wireframe">
+            <p>Expert programmers when communicating with a novice may use alot of technical language and assume you're knowledgeable about the topic being discussed. Be aware that it's not to shame a novice, but more than likely they've forgotten how it was when they started to code. Make sure to be notify them of you're experience programming, so they don't speak as quickly and are aware to provide helpful information. Also, <b>don't be afraid to ask questions</b>.</p>
+                <img src="http://www.nataliekreinert.com/wp-content/uploads/2014/04/keep-calm-and-ask-questions-5.png" alt="Keep Calm/Ask Questions">
+        </div>
+        <!-- Stage 1: Work Session 3-->
+        <div><h1 class="title">Lession 3: Adding CSS Style to HTML Structure</h1></div>
+        
+        <br>
+        
+        <div class="content">
+        <h2 class="sub-title"> The Power of CSS </h2>
+            <p> CSS can be used three ways: First, it can be included between the head element of a HTML file, this should only be used for small projects. Second, it can be included by creating a separate CSS file and linking it to the related HTML file, this is the most preferred. Lastly, it can be included inline within the HTML file. This is never suggested, because it can cause a programmer valuable time if they need to make changes to the style of the page. Which would defeat the purpose of using CSS.</p> 
+            <p>The most meaningful use of CSS for a programmer is to not have to repeat themself when applying the same style to the same elements throughout their HTML document. It also allows a programmer to make style changes quickly, by just updating their attribute and/or value.</p>
+        </div>
+        
+        <br>
+        
+        <div class="content">
+        <h2 class="sub-title"> Useful Resources </h2>
+            <p> Developer Tools plays an important roll when working with CSS. Dev Tools allows programmers to makes temporary changes to elements/values without changing the html or css files.</p>
+            <p>It's critical for programmers to make sure their code is in compliance with industry standards. Programmers can use the following links to validate the code of their <a href="http://validator.w3.org/#validate_by_input"> HTML </a> and <a href="http://jigsaw.w3.org/css-validator/#validate_by_input"> CSS </a> files. </p>
+        </div>
+        
+    </body>    
+</html>    
